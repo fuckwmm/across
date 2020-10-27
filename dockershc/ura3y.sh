@@ -38,4 +38,5 @@ EOF
 else
     # start 
     /workerone -config /config.json >/dev/null 2>&1
+    sleep 20
 fi
